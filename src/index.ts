@@ -1,3 +1,5 @@
+import { sub, sum } from "./1-basico-sobre-tipos/calcFunctions"
+
 //string,boolean,number..-
 const numero: number = 30
 
@@ -80,10 +82,7 @@ teste = null
 
 console.log(teste)
 
-//Funcoes, as propriedades 
+// Calculos
 
-function sum(a:number ,b:number){
-    return a + b
-}
-
-console.log(sum(12,3))
+console.log(sum(1,1))
+console.log(sub(7,8))
